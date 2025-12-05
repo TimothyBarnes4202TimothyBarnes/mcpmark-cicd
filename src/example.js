@@ -1,7 +1,7 @@
-// This file has intentional linting errors to test the workflow
-const unusedVariable = 'test';
-console.log("Hello, world!");
+// Fixed linting errors in example file
 function testFunction() {
-  let value = 10
-  return value
+  let value = 10;
+  return value;
 }
+
+export default testFunction;
